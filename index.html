@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="content">
+        <form id="form">
+            <h1>Input</h1>
+            <label for="dmYtre">Ytre diameter (cm)</label>
+            <input type="number" name="dmYtre" id="dmYtre"  step=".01">
+            <br>    
+            <label for="dmIndre">Indre diameter (cm)</label>
+            <input type="number" name="dmIndre" id="dmIndre" step=".01">
+            <br>
+            <label for="lengde">Lengde (cm)</label>
+            <input type="number" name="lengde" id="lengde" step=".01">
+            <br>
+            <input type="submit" value="Kalkuler">
+            <br>
+        </form>
+        <h1>Output</h1>
+        <label for="volumYtre">Ytre volum</label>
+        <input type="number" name="volumYtre" id="volumYtre" disabled>cm^3
+        <br>
+        <label for="volumIndre">Indre volum</label>
+        <input type="number" name="volumIndre" id="volumIndre" disabled>cm^3
+        <br>
+        <label for="volumTotal">Total volum</label>
+        <input type="number" name="volumTotal" id="volumTotal" disabled>cm^3
+        <br>
+        <label for="vekt">Vekt</label>
+        <input type="number" name="vekt" id="vekt" disabled>kg
+        <br>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

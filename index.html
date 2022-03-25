@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Betongpriser</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="content">
@@ -35,6 +36,13 @@
         <label for="vekt">Vekt</label>
         <input type="number" name="vekt" id="vekt" disabled>kg
         <br>
+        <label for="antallSekker">Antall sekker</label>
+        <input type="number" name="antallSekker" id="antallSekker" disabled>
+        <div id ="resultat" class="hidden">
+            <h1>Resultat</h1>
+            Du vil trenge <span id="antallSekkerRounded"></span> sekker<br>
+            Det vil koste kr <span id="sum"></span>
+        </div>
     </div>
 
     <script src="script.js"></script>

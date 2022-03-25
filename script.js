@@ -9,7 +9,7 @@ var antallSekkerRoundedEl = document.getElementById("antallSekkerRounded");
 var sumEl = document.getElementById("sum");
 var resultatEl = document.getElementById("resultat");
 var sekkStorrelse = 25 //kg
-var prisPerSekk = 89;
+var prisPerSekk = 89; //kr
 
 
 
@@ -72,6 +72,7 @@ function getVektKg(volCm3){
     var liter = volCm3 / 1000;
     return (liter / 12.5) * 2
 }
+
 function getVolume(r,l){
     return Math.PI*(r*r)*l
 }
